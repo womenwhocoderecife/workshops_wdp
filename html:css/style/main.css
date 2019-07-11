@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* { font-family: 'Roboto', sans-serif; }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #2F4076 0%, rgba(47, 64, 118, 0.84) 100%);
+}
+
+a { text-decoration: none; }
+
+.padding { padding: 2% 15%; }
+
+.row { display: flex; }
+
+.rigth { width: 25%; }
+
+.left { width: 75%; }
+
+.white-txt { color: white; }
+
+.green-txt { color: #54D1BB; }
+
+.yellow-txt { color: #F1C205; }
+
+.blue-txt { color: #2F4076; }
+
+.purple-txt { color: #3D1E69; }
+
+.heading-title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* MENU  */
+.navbar { margin-top: 20px; }
+
+.logo { width: 90px; }
+
+.menu {
+    float: right;
+}
+
+.menu-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-items li { float: left; }
+
+.menu-items a {
+    display: block;
+    color: #54D1BB;
+    text-align: center;
+    margin-left: 80px;
+    line-height: 5;
+}
+
+/* BANNER */
+.banner { padding-bottom: 5%; }
+
+.banner-img { width: 70%; }
+
+.main-title {
+    font-size: 2.8em;
+    line-height: 1.5;
+}
+
+.description {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+/* PROJECTS */
+.projects {
+    margin: 0;
+    background-color: rgb(229, 229, 229);
+    color: #2F4076;
+}
+
+.card {
+    width: 50%;
+    background-color: white;
+    padding: 15px;
+    margin: 5% 8%;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card .icon {
+    width: 80px;
+    height: 90px;
+    margin: 20px;
+}
+
+.card-title {
+    font-size: 1em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.card-description {
+    margin-top: 5px;
+    color: #3E3B3B;
+    text-align: justify;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    background: linear-gradient(180deg, #46BEB2 0%, #3A7C95 100%);
+    padding-bottom: 5%;
+}
+
+.contact .description {
+    color: #3E3B3B;
+    text-align: center;
+    font-size: 1em;
+    padding: 0 20%;
+}
+
+.email { font-size: 1em; }
+
+/* FOOTER */
+.footer {
+    background: rgba(62, 59, 59, 0.88);
+    padding: 2%;
+    text-align: center;
+}
+
+.footer i {
+    color: #838282;
+    font-size: 1.7em;
+    margin: 0 5%;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    .logo { width: 40px; }
+    
+    .menu-items a {
+        margin: 2px;
+        line-height: 2;
+    }
+
+    .row { display: block; }
+
+    .card { 
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    .padding { padding: 5% 10%; }
+}

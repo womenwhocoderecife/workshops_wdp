@@ -35,25 +35,27 @@ a { text-decoration: none; }
 }
 
 /* MENU  */
-.navbar { margin-top: 20px; }
+.navbar { 
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
 
 .logo { width: 90px; }
 
-.menu {
-    float: right;
-}
+.menu { width: 500px }
 
 .menu-items {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
-.menu-items li { float: left; }
+.menu-items li { display: inline; }
 
 .menu-items a {
-    display: block;
+    display: inline-block;
     color: #54D1BB;
     text-align: center;
     margin-left: 80px;

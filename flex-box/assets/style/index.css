@@ -23,7 +23,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   font-family: 'Roboto Condensed', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -82,7 +82,6 @@ body {
 .header-mean {
   display: flex;
   width: 100%;
-  max-width: var(--max-width);
   align-items: center;
   justify-content: space-between;
   max-width: var(--max-width);
@@ -131,4 +130,26 @@ body {
   margin: 100px 0 0 0;
   max-width: var(--max-width);
   width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: var(--max-width);
+  width: 100%;
+}
+
+/*************************************/
+/* header */
+/*************************************/
+.projects {
+  color: var(--highlight-color-two);
+}
+
+.projects__list__img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 100px;
 }

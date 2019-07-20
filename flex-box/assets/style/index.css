@@ -1,3 +1,13 @@
+:root {
+  --main-color: #54d1bb;
+  --basic-color: white;
+  --highlight-color-one: #f1c205;
+  --highlight-color-two: #2f4076;
+  --highlight-color-three: #3d1e69;
+
+  --max-width: 1080px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -13,10 +23,112 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
   font-family: 'Roboto Condensed', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--basic-color);
+}
+
+/* header */
+.header {
+  width: 100%;
+  padding: 40px 100px 20px;
+  background: linear-gradient(180deg, #2f4076 0%, rgba(47, 64, 118, 0.84) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__top {
+  display: flex;
+  margin: 20px 0 100px 0;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.header__logo {
+  object-fit: cover;
+  width: 100%;
+  max-width: 200px;
+}
+
+.nav {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.list__item {
+  margin-left: 60px;
+}
+
+.list__item__link {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-mean {
+  display: flex;
+  width: 100%;
+  max-width: var(--max-width);
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--max-width);
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.header-main-title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.primary-title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.header-title {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondary-title {
+  font-size: 2em;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.high-light-title {
+  font-size: 2em;
+  color: var(--main-color);
+  margin: 0;
+}
+
+.header-mean__img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 50%;
+}
+
+.header__description {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  margin: 100px 0 0 0;
+  max-width: var(--max-width);
+  width: 100%;
 }

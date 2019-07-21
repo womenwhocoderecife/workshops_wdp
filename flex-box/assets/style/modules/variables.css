@@ -1,0 +1,10 @@
+:root {
+  --main-color: #54d1bb;
+  --dark-color: #3e3b3b;
+  --basic-color: white;
+  --highlight-color-one: #f1c205;
+  --highlight-color-two: #2f4076;
+  --highlight-color-three: #3d1e69;
+
+  --max-width: 1080px;
+}

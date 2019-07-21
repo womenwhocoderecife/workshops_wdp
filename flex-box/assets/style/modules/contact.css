@@ -1,0 +1,29 @@
+.contact {
+  width: 100%;
+  background: linear-gradient(180deg, #46beb2 0%, #3a7c95 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content {
+  padding: 60px 100px;
+  width: 100%;
+  max-width: calc(var(--max-width) - 300px);
+  text-align: center;
+}
+
+.contact__title {
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.contact__description {
+  padding: 20px;
+  color: var(--dark-color);
+  font-size: 1.2em;
+}
+
+.contact__email {
+  font-size: 1.2em;
+}

@@ -1,7 +1,7 @@
 # Workshop CSS3 & FlexBox
 
 - [Protótipo utilizado no workshop](https://www.figma.com/file/e0agdxIfKgAKssH0ZoIVQ3l0/Personal-Page?node-id=0%3A1)
-- [Link do site pronto](Protótipo utilizado no workshop)
+- [Link do site pronto](https://womenwhocoderecife.github.io/workshops_wdp/flex-box/)
 
 -------------------
 

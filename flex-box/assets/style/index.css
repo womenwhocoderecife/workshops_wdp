@@ -1,5 +1,6 @@
 :root {
   --main-color: #54d1bb;
+  --dark-color: #3e3b3b;
   --basic-color: white;
   --highlight-color-one: #f1c205;
   --highlight-color-two: #2f4076;
@@ -166,11 +167,25 @@ body {
 }
 
 .contact-content {
-  padding: 40px 100px 20px;
+  padding: 60px 100px;
   width: 100%;
   max-width: calc(var(--max-width) - 300px);
-  border: 2px solid white;
   text-align: center;
+}
+
+.contact__title {
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.contact__description {
+  padding: 20px;
+  color: var(--dark-color);
+  font-size: 1.2em;
+}
+
+.contact__email {
+  font-size: 1.2em;
 }
 
 /*************************************/

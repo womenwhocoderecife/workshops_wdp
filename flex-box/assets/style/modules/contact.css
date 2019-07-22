@@ -7,10 +7,16 @@
 }
 
 .contact-content {
-  padding: 60px 100px;
+  padding: 60px 0;
   width: 100%;
   max-width: calc(var(--max-width) - 300px);
   text-align: center;
+}
+
+@media (min-width: 580px) {
+  .contact-content {
+    padding: 60px 100px;
+  }
 }
 
 .contact__title {

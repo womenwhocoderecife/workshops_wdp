@@ -1,8 +1,14 @@
 .projects {
   width: 100%;
   color: var(--highlight-color-two);
-  padding: 40px 100px 20px;
+  padding: 40px 0 20px;
   background-color: rgb(229, 229, 229);
+}
+
+@media (min-width: 580px) {
+  .projects {
+    padding: 40px 100px 20px;
+  }
 }
 
 .projects__title {

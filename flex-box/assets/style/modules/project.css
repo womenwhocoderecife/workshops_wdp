@@ -45,9 +45,14 @@
 .projects__list__img {
   text-align: center;
   object-fit: cover;
-  width: 100%;
-  max-width: 130px;
+  width: 50%;
   align-self: center;
+}
+
+@media (min-width: 580px) {
+  .projects__list__img {
+    width: 70%;
+  }
 }
 
 .projects__list__title {

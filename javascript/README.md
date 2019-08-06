@@ -1,5 +1,7 @@
 # Workshop Javascript
 
+> [Acesse aqui os slides apresentados no workshop de Javascript](https://github.com/womenwhocoderecife/workshops_wdp/blob/master/javascript/Meetup%20Javascript.pdf)
+
 ## Abaixo estão os resultados dos desafios aplicados no workshop de Javascript
 
 1. Cálculo de idade:

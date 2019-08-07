@@ -1,0 +1,151 @@
+.header {
+  width: 100%;
+  padding: 40px 10px 20px;
+  background: linear-gradient(180deg, #2f4076 0%, rgba(47, 64, 118, 0.84) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__top {
+  display: flex;
+  margin: 20px 0 100px 0;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.header__logo {
+  object-fit: cover;
+  width: 50%;
+}
+
+.nav {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.list__item {
+  margin: 30px 0 0 0;
+}
+
+.list__item__link {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-mean {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: center;
+  max-width: var(--max-width);
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.header-main-title {
+  font-size: 2em;
+  margin: 100px 0 0;
+}
+
+.primary-title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.header-title {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondary-title {
+  font-size: 2em;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.high-light-title {
+  font-size: 2em;
+  color: var(--main-color);
+  margin: 0;
+}
+
+.header-mean__img {
+  object-fit: cover;
+  width: 90%;
+  border-radius: 50%;
+}
+
+.header__description {
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  margin: 100px 0 0 0;
+  max-width: var(--max-width);
+  width: 100%;
+}
+
+@media (min-width: 580px) {
+  .header {
+    padding: 40px 100px 20px;
+  }
+}
+
+@media (min-width: 850px) {
+  .header__top {
+    flex-direction: row;
+  }
+
+  .nav {
+    margin-top: 0;
+  }
+
+  .header__logo {
+    width: 25%;
+  }
+
+  .list {
+    flex-direction: row;
+  }
+
+  .list__item {
+    margin: 0 0 0 60px;
+  }
+
+  .header-mean__img {
+    width: 70%;
+  }
+}
+
+@media (min-width: 980px) {
+  .header-mean {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-main-title {
+    margin: 0;
+  }
+
+  .header-mean__img {
+    width: 40%;
+  }
+}

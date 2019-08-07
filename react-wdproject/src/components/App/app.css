@@ -8,3 +8,11 @@
   -moz-osx-font-smoothing: grayscale;
   color: var(--basic-color);
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

@@ -4,6 +4,7 @@ import Projects from '../Projects';
 
 import './app.css';
 import Contact from '../Contact';
+import Footer from '../Footer';
 
 const App = () => (
   <div className="container">
@@ -12,6 +13,7 @@ const App = () => (
       <Projects />
       <Contact />
     </main>
+    <Footer />
   </div>
 );
 

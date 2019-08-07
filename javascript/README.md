@@ -142,3 +142,4 @@
 - [JavaScript Curso 100% online e gratuito](https://rocketseat.com.br/starter/curso-gratuito-javascript)
 - [The 10 Best JavaScript ES6 Features](https://www.lifewire.com/best-javascript-es6-features-4579821)
 - [Simplify your JavaScript – Use .map(), .reduce(), and .filter()](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d)
+- [Javascript: Novidades do ES2019 (ES10).](https://medium.com/@isaacmeira96/javascript-novidades-da-es2019-es10-17358415d427)

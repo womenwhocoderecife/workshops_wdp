@@ -22,34 +22,6 @@
   width: 50%;
 }
 
-.nav {
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.list {
-  display: flex;
-  list-style: none;
-  flex-direction: column;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
-}
-
-.list__item {
-  margin: 30px 0 0 0;
-}
-
-.list__item__link {
-  color: var(--main-color);
-  font-weight: 700;
-  font-size: 1.3em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 .header-mean {
   display: flex;
   align-items: center;
@@ -114,20 +86,8 @@
     flex-direction: row;
   }
 
-  .nav {
-    margin-top: 0;
-  }
-
   .header__logo {
     width: 25%;
-  }
-
-  .list {
-    flex-direction: row;
-  }
-
-  .list__item {
-    margin: 0 0 0 60px;
   }
 
   .header-mean__img {

@@ -20,3 +20,7 @@ $ yarn install
 ```sh
 $ yarn start
 ```
+
+## Links Importants
+- [Fundamentos JavaScript antes de aprender React](https://willianjusten.com.br/fundamentos-javascript-antes-de-aprender-react/)
+- [JavaScript fundamentals before learning React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/)

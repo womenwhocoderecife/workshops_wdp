@@ -9,4 +9,9 @@ A cada turma, o WWCode dará os workshops de desenvolvimento web e/ou mobile, de
 ## Link dos materiais apresentados nos workshops:
 - [User Experience](https://github.com/womenwhocoderecife/workshops_wdp/tree/master/ux)
 - [User Interface](https://github.com/womenwhocoderecife/workshops_wdp/tree/master/ui)
-- {Introdução a Git e GitHub](https://github.com/womenwhocoderecife/workshops_wdp/tree/master/git)
+- [Introdução a Git e GitHub](https://github.com/womenwhocoderecife/workshops_wdp/tree/master/git)
+- [HTML e CSS](https://github.com/womenwhocoderecife/workshops_wdp/tree/master/html:css)
+- [CSS3 e Flexbox](https://github.com/womenwhocoderecife/workshops_wdp/tree/master/flex-box)
+- [Gerenciamento de Projetos](#)
+- [Javascript](https://github.com/womenwhocoderecife/workshops_wdp/tree/master/javascript)
+- [React](https://github.com/womenwhocoderecife/workshops_wdp/tree/master/react-wdproject)
